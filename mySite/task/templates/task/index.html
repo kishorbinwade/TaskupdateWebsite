@@ -12,8 +12,9 @@
                 <li>NO Tasks</li>
             {% endfor %}
         </ul> 
-        <a href="/task/add">Add new task1 </a><br>
-        <a href="{% url 'task:add' %}">Add new task </a>
+        <a href="/task/add">Add new task1 </a><hr><br>
+        <a href="{% url 'task:add' %}">Add new task </a><hr>
+        <a href="{% url 'task:delete'%}">Delete task</a>
 
     {% endblock %}
 
